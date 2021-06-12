@@ -1,0 +1,102 @@
+@media only screen and (max-width: 1024px)
+{
+
+	.mobile-menu {
+		display: block;
+		
+	}
+	.row{
+		margin: 0 15px;
+	}
+
+	.main-nav{
+		display: none;
+	}
+
+	.hero-text-box{
+
+		width: 90%;
+	}
+
+	html{
+		font-size: 52.5%;
+	}
+
+	.client-img {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+
+	.client-review{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+
+	.contact-section form{
+		width: 100%;
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 980px)
+{
+		.span_1_of_4{
+			width: 49.2%;
+		}
+
+		.skill-section .col .span_1_of_4:nth-child(3){
+				margin-left: 0
+		}
+}
+@media only screen and (max-width: 980px)
+{
+	.sent-btn{
+		width: 20%;
+		margin: auto;
+	}
+}
+
+@media only screen and (max-width: 768px)
+{
+	.footer-section{
+
+		width: 100%;
+	}
+
+	.footer-section .social{
+		display: block;
+	}
+}
+
+
+@media only screen and (max-width: 480px){
+
+	.testimonial h2{
+		width: 50%;
+		margin:auto;
+		text-align: center;
+
+	}
+	.testimonial p{
+	 	width: 50%;
+		margin: auto;
+		 margin-top: auto;
+		text-align: center;
+		margin-top: 2.5rem;
+	}
+
+	.contact-section .port-btn2{
+		width: 50%;
+		width: 50%;
+		margin: 0;
+		margin-top: 0px;
+		margin-left: 0px;
+		margin-top: 3rem;
+		margin-left: 12rem;
+	}
+	.span_1_of_4{
+			width: 100%;
+		}
+}
